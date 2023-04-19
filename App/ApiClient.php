@@ -6,7 +6,7 @@ use GuzzleHttp\Client;
 class ApiClient {
 
     private $client;
-    private const API_KEY = "3b93430fef65e8eddf6d676047d68e7f";
+    private const API_KEY = "API KEY HERE!";
     public function __construct () {
         $this->client = new Client();
     }
